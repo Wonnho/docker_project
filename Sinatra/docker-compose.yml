@@ -6,3 +6,7 @@ services:
 
     volumes:
       - .:/app
+      - app-bundle:/usr/local/bundle
+
+volumes:
+  app-bundle:
