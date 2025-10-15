@@ -6,7 +6,7 @@ services:
 
     volumes:
       - .:/app
-      - app-bundle:/usr/local/bundle
-
-volumes:
-  app-bundle:
+      # - app-bundle:/usr/local/bundle
+      - ./vendor/docker/bundle:/usr/local/bundle
+# volumes:
+#   app-bundle:
